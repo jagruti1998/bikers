@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biker's Choice</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="row clearfix">
+                <img src="bklogo.png" class="logo">
+
+                <ul class="main-nav animate__slideInDown" id="check-class">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Book a Service</a></li>
+                    <li><a href="#">About</a></li>
+
+                </ul>
+                <a href="#" class="mobile-icon"  onclick="slideshow()"> <i class="fa fa-bars"></i></a>
+
+            </div>
+        </nav>
+
+        <div class="main-content-header">
+        <h1>Looking for Bike servicing center in Palghar<br>
+             which provides Pick/drop service?<br>
+            Happily introducing <span class="color-change">BIKER'S CHOICE</span>- Your personal mechanic.</h1>
+
+            <a href="#" class="btn btn-full">Book Now</a>
+        </div>    
+    </header>
+    
+</body>
+
+<script type="text/javascript">
+function slideshow(){
+    var x=document.getElementById('check-class');
+    if(x.style.display ==="none"){
+        x.style.display="block";
+
+    }else{
+        x.style.display="none";
+    }
+
+}
+
+</script>
+</html>
